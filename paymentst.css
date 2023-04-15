@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+.inline-btn{
+    text-decoration: none;
+   border-radius: .5rem;
+   padding: 1rem 3rem;
+   font-size: 1.8rem;
+   color: #fff;
+   margin-top: 1rem;
+   text-transform: capitalize;
+   cursor: pointer;
+   text-align: center;
+}
+.inline-btn{
+   display: inline-block;
+}
+
+.inline-btn{
+    background-color: #8e44ad;
+}
+
+.inline-btn:hover{
+   background-color: var(--black);
+   color: var(--white);
+}
+
+.cards img{
+    width: 100px;
+   
+}
+
+.cards .esewa,.esewa:link,.esewa:visited,.esewa:hover,.esewa:focus,.esewa:active{
+    color: inherit;
+    text-decoration: none;
+}
